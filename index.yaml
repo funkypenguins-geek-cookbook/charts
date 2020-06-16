@@ -3,7 +3,7 @@ entries:
   docker-mailserver:
   - apiVersion: v1
     appVersion: 6.3.0
-    created: "2020-06-15T00:11:23.354036108Z"
+    created: "2020-06-16T00:11:22.847519696Z"
     dependencies:
     - alias: haproxy
       condition: haproxy.enabled
@@ -12,7 +12,7 @@ entries:
       version: 0.7.0
     description: A fullstack but simple mailserver (smtp, imap, antispam, antivirus,
       ssl...) using Docker.
-    digest: ae3df1bca99e1209c5e126323d94602be464caa90619675533bfcd33c57b8bcb
+    digest: cfa594d2e0fc9ca9acd20ff30efcb417a5c7580b7ea9456a7b6ad5d8ebaa075e
     home: https://github.com/funkypenguin/helm-docker-mailserver
     keywords:
     - mailserver
@@ -32,7 +32,7 @@ entries:
   fission-all:
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-15T00:11:23.384266479Z"
+    created: "2020-06-16T00:11:22.871917786Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -55,14 +55,14 @@ entries:
     version: 1.8.1-pre9
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-15T00:11:23.374870935Z"
+    created: "2020-06-16T00:11:22.865779288Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
       repository: https://kubernetes-charts.storage.googleapis.com
       version: 9.3.1
     description: Fission is a fast serverless framework for Kubernetes.
-    digest: f39cc2690b37b36980d9fe6142e0a8258287654ae393757b306e9306b924f7d9
+    digest: 8885dfeb94c6aece1f68d8f38078dd6a5c59c50880a1ae9ee7c72c415ca14f6e
     home: http://fission.io/
     keywords:
     - fission
@@ -78,7 +78,7 @@ entries:
     version: 1.8.1-pre13
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-15T00:11:23.369015834Z"
+    created: "2020-06-16T00:11:22.860003691Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -101,7 +101,7 @@ entries:
     version: 1.8.1-pre11
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-15T00:11:23.362760306Z"
+    created: "2020-06-16T00:11:22.853449893Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -125,14 +125,14 @@ entries:
   fission-core:
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-15T00:11:23.395078319Z"
+    created: "2020-06-16T00:11:22.881805882Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
       repository: https://kubernetes-charts.storage.googleapis.com
       version: 9.3.1
     description: Fission is a fast serverless framework for Kubernetes.
-    digest: 34fd4104213efecc8211ec29645de5525e72d85134ed0eb31acfdcf8a5c48622
+    digest: 0edda7274bc278f06b8d7299d5aa91ce96013d5e3bdbb93da24994389afb056f
     home: http://fission.io/
     keywords:
     - fission
@@ -148,7 +148,7 @@ entries:
     version: 1.8.1-pre3
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-15T00:11:23.389948668Z"
+    created: "2020-06-16T00:11:22.876894784Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -172,7 +172,7 @@ entries:
   harbor:
   - apiVersion: v1
     appVersion: 1.10.2
-    created: "2020-06-15T00:11:23.407938Z"
+    created: "2020-06-16T00:11:22.895087776Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -184,7 +184,7 @@ entries:
       version: 10.x.x
     description: Harbor is an an open source trusted cloud native registry project
       that stores, signs, and scans content
-    digest: f2722cd49b98a83baa4b7ffa984b2e5bc959fe1ccc23874dba5c0596aad17a1b
+    digest: ffee42cc07a2231c2028d28cbdd32fa47934a8804a01efbb06a8dd3085c5afa6
     home: https://goharbor.io/
     icon: https://bitnami.com/assets/stacks/harbor-core/img/harbor-core-stack-220x234.png
     keywords:
@@ -208,16 +208,16 @@ entries:
   k-rail:
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2020-06-15T00:11:23.409878933Z"
+    created: "2020-06-16T00:11:22.896457476Z"
     description: A Helm chart for Kubernetes
-    digest: a0654963bec095c9e4f14502852dd6c2a9ab1871766e8ec5e193c4e16ef42374
+    digest: ff4b90168f4734e3187a8550dba8ed823b11995baa682ef0eb82df989d85581c
     name: k-rail
     urls:
     - k-rail/k-rail-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2020-06-15T00:11:23.409131282Z"
+    created: "2020-06-16T00:11:22.895811576Z"
     description: A Helm chart for Kubernetes
     digest: 78bf250f8c2875d8228b064dfc99b483b5c3c2ec5fa38061bcf30d8bad574f0b
     name: k-rail
@@ -227,9 +227,9 @@ entries:
   nats-operator:
   - apiVersion: v1
     appVersion: 0.4.4
-    created: "2020-06-15T00:11:23.410735392Z"
+    created: "2020-06-16T00:11:22.897233775Z"
     description: Nats operator creates/configures/manages nats clusters atop Kubernetes
-    digest: e2ca51a13bb0be43e553144b571d6cc46dd454642a54ca359ce32cac04e5adc5
+    digest: bcd12d314d363aa0594a8c390d6725d6d2e13442ab9a0f2538cd705860bf69d5
     home: https://github.com/nats-io/nats-operator
     icon: https://bitnami.com/assets/stacks/nats/img/nats-stack-110x117.png
     keywords:
@@ -251,9 +251,9 @@ entries:
   nats-streaming-operator:
   - apiVersion: v1
     appVersion: 0.2.3
-    created: "2020-06-15T00:11:23.411452141Z"
+    created: "2020-06-16T00:11:22.897884775Z"
     description: Operator for managing NATS Streaming clusters running on Kubernetes.
-    digest: 9ab25071a7f5b4d8ab34f8c7c7c4337e3011c046bc1e2239fa6cb22ed71367bf
+    digest: e265dfee6ec02e7f96230b6529d483217ac5bf5895aab230b6e4aa877649e139
     home: https://github.com/nats-io/nats-streaming-operator
     icon: https://bitnami.com/assets/stacks/nats/img/nats-stack-110x117.png
     keywords:
@@ -275,9 +275,9 @@ entries:
   openldap:
   - apiVersion: v1
     appVersion: 2.4.48
-    created: "2020-06-15T00:11:23.412300499Z"
+    created: "2020-06-16T00:11:22.898633475Z"
     description: Community developed LDAP software
-    digest: bdda318969cece7d42b1eb3b6e87679d5ece0b068d5fb2e6b9f766f59a5551ed
+    digest: dfd45323e17dd97299eee37686a96d045df594689bc54d28593b5d667d992d6c
     home: https://www.openldap.org
     icon: http://www.openldap.org/images/headers/LDAPworm.gif
     keywords:
@@ -295,9 +295,9 @@ entries:
   rainloop:
   - apiVersion: v1
     appVersion: 1.14.0
-    created: "2020-06-15T00:11:23.41582404Z"
+    created: "2020-06-16T00:11:22.900330274Z"
     description: A beautiful and modern webmail interface (https://www.rainloop.net)
-    digest: 18a4abf769df5b9b394deecf6aef0ded683508b8effd283811543e27e665d0b0
+    digest: 62c460156c165e7795475eb85198c31f709368d0299804af9bd86e7a603d3e66
     home: https://github.com/geek-cookbook/helm-rainloop
     keywords:
     - mailserver
@@ -314,7 +314,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.14.0
-    created: "2020-06-15T00:11:23.413819903Z"
+    created: "2020-06-16T00:11:22.899485474Z"
     description: A beautiful and modern webmail interface (https://www.rainloop.net)
     digest: fd2193a1ee217cd525f19dc7a2639be7c521448938c3864d7467a871da586cef
     name: rainloop
@@ -324,9 +324,9 @@ entries:
   webhook-receiver:
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2020-06-15T00:11:23.420519462Z"
+    created: "2020-06-16T00:11:22.904282072Z"
     description: A Helm chart to recieve webhooks, and act accordingly.
-    digest: 0e2a97a89e689bd199c550331a467080920ab3d1405455e1efd61e24b8183120
+    digest: c7ea64045f51530d63ec59342d09987a207e96b8690509820952326809e70166
     home: https://geek-cookbook.funkypenguin.co.nz
     maintainers:
     - email: thomas@hexf.me
@@ -346,7 +346,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2020-06-15T00:11:23.419795512Z"
+    created: "2020-06-16T00:11:22.903624673Z"
     description: A Helm chart to recieve webhooks, and act accordingly.
     digest: 5988c2bb0b29327bc5f722407cafd7e8e6f5c52b2a7e083d0ee90988803c6a23
     home: https://geek-cookbook.funkypenguin.co.nz
@@ -368,7 +368,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2020-06-15T00:11:23.419072263Z"
+    created: "2020-06-16T00:11:22.902966173Z"
     description: A Helm chart to recieve webhooks, and act accordingly.
     digest: d12e802afd43d6aa5b3d96ca7731f249ab5d46352ca30c8c2e65f8845d434cf2
     home: https://geek-cookbook.funkypenguin.co.nz
@@ -390,7 +390,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2020-06-15T00:11:23.418338212Z"
+    created: "2020-06-16T00:11:22.902314173Z"
     description: A Helm chart to recieve webhooks, and act accordingly.
     digest: 9c9a6a6b724aed1b4305709b69b993c78300b62db3fe3fcf28828778637cfe4d
     home: https://geek-cookbook.funkypenguin.co.nz
@@ -412,7 +412,7 @@ entries:
     version: 1.0.1-pre4
   - apiVersion: v2
     appVersion: 2.7.0
-    created: "2020-06-15T00:11:23.41756996Z"
+    created: "2020-06-16T00:11:22.901663473Z"
     description: A Helm chart to recieve webhooks, and act accordingly.
     digest: 08b0492d87491c2d0ab90f2c2345a44c247ca106c6351e10749dea372f98f3fb
     home: https://geek-cookbook.funkypenguin.co.nz
@@ -434,7 +434,7 @@ entries:
     version: 1.0.1-pre3
   - apiVersion: v2
     appVersion: 2.6.11
-    created: "2020-06-15T00:11:23.416684799Z"
+    created: "2020-06-16T00:11:22.900986274Z"
     description: A Helm chart to recieve webhooks, and act accordingly.
     digest: b1b8c77d224151f5357e7b6fdfb5227c70f4f394a22cfbcfe24456f757b5986f
     home: https://geek-cookbook.funkypenguin.co.nz
@@ -451,4 +451,4 @@ entries:
     urls:
     - webhook-receiver/webhook-receiver-1.0.1-pre2.tgz
     version: 1.0.1-pre2
-generated: "2020-06-15T00:11:23.345555427Z"
+generated: "2020-06-16T00:11:22.840486699Z"
